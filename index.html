@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Consensus Weather — Plan with confidence</title>
+
+  <!-- Shows the Smart App Banner on iOS Safari -->
+  <meta name="apple-itunes-app" content="app-id=6753608273" />
+
+  <!-- Basic social/SEO -->
+  <meta name="description" content="Consensus Weather blends Apple, Google, and NWS into a clear forecast with hourly details, alerts, and widgets." />
+  <meta property="og:title" content="Consensus Weather — Plan with confidence" />
+  <meta property="og:description" content="Consensus forecast from Apple, Google, and NWS. Clean hourly breakdowns, wind/precip, and widgets." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://your-username.github.io/consensus-weather/" />
+  <!-- Optional social image -->
+  <!-- <meta property="og:image" content="https://your-username.github.io/consensus-weather/og-image.png" /> -->
+
+  <style>
+    :root { --bg1:#2e90ff; --bg2:#2563eb; --ink:#0b1b34; --muted:#5c6a7a; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(160deg, var(--bg1), var(--bg2));
+      color: white;
+    }
+    .wrap { max-width: 880px; margin: 0 auto; padding: 56px 20px 40px; }
+    h1 { font-size: 40px; margin: 0 0 8px; }
+    p.lead { font-size: 18px; opacity: .95; margin: 0 0 20px; }
+    .cta {
+      display:inline-block; background:#0ea5e9; color:white; text-decoration:none;
+      padding:12px 18px; border-radius:12px; font-weight:600;
+    }
+    .links { margin-top: 22px; font-size: 15px; }
+    .links a { color: #eaf2ff; text-decoration: underline; }
+    footer { margin-top: 40px; font-size: 13px; opacity: .85; }
+    .card {
+      background: rgba(255,255,255,.1); border-radius:16px; padding:18px; margin-top:24px;
+      backdrop-filter: saturate(140%) blur(4px);
+    }
+    ul { margin:10px 0 0 18px; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Consensus Weather</h1>
+    <p class="lead">Plan with confidence. Consensus Weather blends Apple, Google, and NWS to deliver a single, clear forecast with hourly details and reliable alerts.</p>
+
+    <!-- App Store button -->
+    <p><a class="cta" href="https://apps.apple.com/app/id6753608273" rel="noopener">Get it on the App Store</a></p>
+
+    <section class="card">
+      <strong>What you get</strong>
+      <ul>
+        <li>Consensus forecast from multiple trusted sources</li>
+        <li>Clean hourly breakdown with wind, precipitation, and gusts</li>
+        <li>Widgets that stay fresh in the background</li>
+      </ul>
+    </section>
+
+    <div class="links">
+      <a href="privacy.html">Privacy Policy</a> •
+      <a href="mailto:support@example.com">Support</a>
+    </div>
+
+    <footer>
+      © <span id="y"></span> Consensus Weather. All rights reserved.
+    </footer>
+  </main>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
