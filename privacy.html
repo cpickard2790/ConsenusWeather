@@ -22,15 +22,16 @@
 
     <h2>What the app collects</h2>
     <ul>
-      <li><strong>Location (approx./precise, with your permission):</strong> used to fetch local weather. Location is not stored on our servers.</li>
+      <li><strong>Location (approx./precise, with your permission):</strong> Used to fetch local weather. Location is not stored on our servers. You can also search by city instead of sharing location.</li>
       <li><strong>Crash diagnostics:</strong> Apple may provide anonymized crash logs to help us fix issues.</li>
-      <li><strong>Advertising data (if you use the free version):</strong> Our ads partner (Google Mobile Ads/AdMob) may collect device identifiers to show relevant ads. See their policy below.</li>
+      <li><strong>Advertising (free version):</strong> We show <em>contextual ads</em> via Google Mobile Ads (AdMob). We <strong>do not request App Tracking Transparency (ATT)</strong> and <strong>do not access the advertising identifier (IDFA)</strong>. AdMob may process information such as IP address, device and app information, and network-derived approximate location to deliver and measure ads and may use Apple’s SKAdNetwork for attribution. See Google’s policy below.</li>
     </ul>
 
-    <h2>What the app does <em>not</em> collect</h2>
+    <h2>What the app does <em>not</em> collect or do</h2>
     <ul>
       <li>No account is required, and we do not collect names, emails, or phone numbers inside the app.</li>
       <li>No health, financial, or other sensitive personal data.</li>
+      <li>We do <strong>not</strong> track you across apps or websites, and we do not sell personal data.</li>
     </ul>
 
     <h2>Third-party services</h2>
@@ -55,6 +56,9 @@
     <h2>Changes</h2>
     <p>We may update this policy as the app evolves. We’ll change the date at the top when we do.</p>
   </main>
-  <script>document.getElementById('d').textContent = new Date().toLocaleDateString()</script>
+  <script>
+    // Show a friendly local date for the "Last updated" line.
+    document.getElementById('d').textContent = new Date().toLocaleDateString();
+  </script>
 </body>
 </html>
